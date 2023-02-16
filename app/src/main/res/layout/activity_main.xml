@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#AEFFC107"
+    android:orientation="horizontal"
+    android:weightSum="90dp"
+    >
+
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:text="butoon 1"
+   android:layout_weight="30"/>
+   <Button
+      android:layout_width="fill_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="30"
+      android:text="butoon to log "/>
+     <Button
+      android:layout_width="fill_parent"
+      android:layout_height="match_parent"
+      android:text="butoon 3"
+      android:layout_weight="30"/>
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
