@@ -4,33 +4,120 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:padding="7dp"
+    android:layout_margin="7dp"
+    android:orientation="vertical"
+    android:background="@drawable/background_cover"
+
+    >
+
+
 
 
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="100dp"
-    android:background="#AEFFC107"
+    android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:weightSum="90dp"
+    android:weightSum="30"
+
     >
 
 
-<Button
-    android:layout_width="fill_parent"
-    android:layout_height="match_parent"
-    android:text="butoon 1"
-   android:layout_weight="30"/>
-   <Button
-      android:layout_width="fill_parent"
-      android:layout_height="match_parent"
-      android:layout_weight="30"
-      android:text="butoon to log "/>
-     <Button
-      android:layout_width="fill_parent"
-      android:layout_height="match_parent"
-      android:text="butoon 3"
-      android:layout_weight="30"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_weight="10"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/like"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#FFEB3B"
+            android:text="LIKE"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_weight="10"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/like"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF9800"
+            android:textSize="30dp"
+            android:text="LIKE"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_weight="10"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/like"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF4E22"
+            android:textSize="30dp"
+            android:text="LIKE"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -38,6 +125,29 @@
 
 
 </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
